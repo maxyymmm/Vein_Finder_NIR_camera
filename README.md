@@ -14,4 +14,3 @@ W ten sposób kamera pozbawiona filtra IR (NoIR camera = No Infrared filter came
 
 -Kamera OdSeven Camera HD IR-CUT OV5647 5Mpx + moduły IR (850nm)
 
-![Paw](https://user-images.githubusercontent.com/120425774/219518787-916721c2-edd8-4b71-abf2-31e78c98d485.jpg)
