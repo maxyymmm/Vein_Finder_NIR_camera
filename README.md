@@ -7,9 +7,6 @@
 #### CLAHE + Median Filter
 ![CLAHE MEDIAN](https://user-images.githubusercontent.com/120425774/219521323-53cdf4f9-16bd-412f-8ff5-160d1b7c01ad.jpg)
 #### CLAHE + Gaussian Filter
-![CLAHE GAUSSIAN](https://user-images.githubusercontent.com/120425774/219521338-c64d28ba-8005-43e1-a37b-6b83e03c05dc.jpg)
-#### CLAHE GRAY + Median Filter
-![CLAHE GRAY MEDIAN](https://user-images.githubusercontent.com/120425774/219521435-039208a7-3266-4f1f-9f91-9a278c4e08fb.jpg)
 
 
 ### Cel?
@@ -20,7 +17,7 @@ Istnieją grupy chorych, dla których regularne przyjmowanie leków dożylnie (c
 ![how_works](https://user-images.githubusercontent.com/120425774/219519729-e103330e-1e00-4065-a052-114915c339bf.png)
 
 Skaner żył to urządzenie, które wykorzystuje technologię bliskiej podczerwieni (NIR, ang. Near-InfraRed), aby zobrazować żyły ukryte pod skórą pacjenta. 
-Skaner żył działa w sposób następujący: urządzenie emituje bezpieczne dla organizmu fale podczerwone o długości fal między 700 a 1000 nm, które przenikają przez skórę pacjenta. W momencie, gdy fale podczerwone trafiają na żyłę, zostają częściowo pochłonięte przez krew, a otaczające tkanki odbijają światło z powrotem.
+Skaner żył działa w sposób następujący: urządzenie emituje bezpieczne dla organizmu fale podczerwone o długości fal między 700 a 1000 nm (w tym przypadku 850nm), które przenikają przez skórę pacjenta. W momencie, gdy fale podczerwone trafiają na żyłę, zostają częściowo pochłonięte przez krew, a otaczające tkanki odbijają światło z powrotem.
 W ten sposób kamera pozbawiona filtra IR (NoIR camera = No Infrared filter camera) rejestruje obraz, który następnie jest przetwarzany przez algorytm CLAHE (ang. Contrast Limited Adaptive Histogram Equalization) w celu podwyższenia kontrastu. Następnie, na obraz, jest nakładany filtr (Median Filter/Gaussian Filter) i wysyłany na wyjście.
 
 ### Sprzęt
