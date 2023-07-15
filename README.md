@@ -6,7 +6,6 @@
 ![CLAHE_samo](https://user-images.githubusercontent.com/120425774/219521268-9f01fa3c-147e-4599-993e-a9984521db71.jpg)
 #### CLAHE + Median Filter
 ![CLAHE MEDIAN](https://user-images.githubusercontent.com/120425774/219521323-53cdf4f9-16bd-412f-8ff5-160d1b7c01ad.jpg)
-#### CLAHE + Gaussian Filter
 
 
 ### Cel?
