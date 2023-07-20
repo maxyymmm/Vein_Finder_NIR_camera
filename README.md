@@ -1,4 +1,4 @@
-# Skaner Żył (VF)
+# Skaner Żył NIR (Near-Infrared)  (VF)
 ### WYNIKI
 #### Obraz zarejestrowany przez kamere NoIR
 ![ori](https://user-images.githubusercontent.com/120425774/219521156-9f1e4441-8b21-4a45-9fe9-f68e8397a692.jpg)
@@ -37,10 +37,11 @@ Celem tego projektu było stworzenie **przenośnego urządzenia do wizualizacji 
 ### Po co to wszystko?
 Istnieją grupy chorych, dla których regularne przyjmowanie leków dożylnie (co 2/3 dni) stanowi konieczność, np. w przypadku chorób układu krzepnięcia. **Skaner żył jest narzędziem, które pomaga zminimalizować liczbę koniecznych wkłuć**, dzięki czemu można zmniejszyć niepotrzebny stres i ból dla pacjenta oraz zminimalizować liczbę prób, co jest szczególnie ważne w przypadku niemowląt i dzieci.
 ### Jak to działa?
-![how_works](https://user-images.githubusercontent.com/120425774/219519729-e103330e-1e00-4065-a052-114915c339bf.png)
+![scheme](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/67e30692-eaae-4d8a-b628-c2d68beab24c)
+
 
 **Skaner żył** to urządzenie, które wykorzystuje technologię **bliskiej podczerwieni _(NIR, ang. Near-InfraRed)_**, aby zobrazować żyły ukryte pod skórą pacjenta. 
-Skaner żył działa w sposób następujący: urządzenie emituje bezpieczne dla organizmu fale podczerwone o długości fal w zakresie **700nm-1000nm _(w tym przypadku 850nm)_**, które przenikają przez skórę pacjenta. W momencie, gdy fale podczerwone trafiają na żyłę, zostają częściowo pochłonięte przez krew, a otaczające tkanki odbijają światło z powrotem.
+Skaner żył działa w sposób następujący: urządzenie emituje bezpieczne dla organizmu fale podczerwone o długości fal w zakresie **700nm-1000nm _(w tym przypadku 850nm)_**, które przenikają przez skórę pacjenta. W momencie, gdy fale podczerwone trafiają na żyłę, zostają częściowo pochłonięte przez krew, a otaczające tkanki odbijają światło z powrotem.**_Zastosowanie kilku diod o różnych długościach fali może dać nieznacznie lepsze rezultaty, jednak nie ma gotowych układów pozwalających na taką funkcjonalność. Zbudowanie takiego skanera wymagałoby lutowania, stosowania oddzielnych źródeł napięcia i byłoby bardziej skomplikowane. Celem tego projektu było stworzenie stosunkowo prostego urządzenia, które spełnia swoje podstawowe funkcje w bezpieczny i skuteczny sposób._** <br>
 W ten sposób kamera pozbawiona filtra **IR _(NoIR camera = No Infrared filter camera)_** rejestruje obraz, który następnie jest przetwarzany przez algorytm **CLAHE _(ang. Contrast Limited Adaptive Histogram Equalization)_** w celu podwyższenia kontrastu. 
 Proces przetwarzania obejmuje następujące kroki: <br>
 **1)** Konwersja obrazu do przestrzeni **barw LAB**.<br>
@@ -48,7 +49,7 @@ Proces przetwarzania obejmuje następujące kroki: <br>
 **3)** Połączenie kanałów **LAB** z powrotem do obrazu **BGR**.<br>
 **4)** Na obraz nakładany jest **filtr** **_(Median Filter)_**.<br>
 Po przetworzeniu obrazu, jest on wysyłany na lokalny serwer **Flask** działający na urządzeniu. Aby zobaczyć strumień wideo ze skanera żył na innym urządzeniu, należy podłączyć się do hotspotu lokalnego Raspberry Pi. Następnie zeskanować naklejony na obudowę kod qr. <br>
-LUB otworzyć przeglądarkę internetową na urządzeniu i wpisać ręcznie ustawiony adres IP Raspberry Pi oraz port **5000** (np. http://192.168.1.254:5000/). <br>
+**LUB** otworzyć przeglądarkę internetową na urządzeniu i wpisać ręcznie ustawiony adres IP Raspberry Pi oraz port **5000** (np. http://192.168.1.254:5000/). <br>
 Urządzenie zostało wyposażone w posiada **3000mah**, która pozwala na kilkanaście minut pracy.
 
 ### Sprzęt
@@ -62,6 +63,8 @@ Urządzenie zostało wyposażone w posiada **3000mah**, która pozwala na kilkan
 ![karta](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/8f0bd16a-ce50-422c-904e-543d0d7a3185)<br>
 **-Obudowa** _(zaprojektowana w Autocad 2024, należy wysłać plik **Case_stl.stl** do wydruku 3d)_ <br>
 ![caser](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/b5f1bbe0-2185-49ea-93d2-5db69a813369)
+![case_autocad](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/61d7e37c-27e4-435d-b0ac-f01d436fdc7f)
+
 <br>
 
 ### Koszty:
@@ -77,7 +80,7 @@ Raspberry Pi z zainstalowanym **Raspberry Pi OS w wersji 4.3 (September 2022)** 
 **Python** w wersji **3.9.2** lub nowszej.
 
 ### Konfiguracja Raspberry Pi
-**1)** Pobranie pliu _**veinfinder.py**_ oraz _**requirements.txt**_ na raspberry pi
+**1)** Pobranie pliu _**veinfinder.py**_ oraz _**requirements.txt**_ na raspberry pi <br>
 **2)** Instalacja potrzebnych bibliotek z pliku _**requirements.txt**_
 
 ```console
@@ -106,6 +109,11 @@ sudo python3 SCIEŻKA_PLIKU/veinfinder.py &
 ```
 ![rtc2](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/ebbde9b5-2d02-49a1-b965-127ef5896980)
 **GOTOWE!**
+
+### Użytkowanie
+Urzędzenie włączamy przyciskiem **ON/OFF** <br>
+Urządzenie wyłączamy naciskając dwukrotnie przycisk **ON/OFF** <br>
+Urządzenie można ładować za pomocą **USB TYP C (Quick charge)** lub **Micro USB (Charge)** (5 diod LED wskazuje poziomu naładowania baterii oraz statusu ładowania)
 
 
    
