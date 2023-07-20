@@ -10,27 +10,25 @@
 
 
 
-https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/e6118d30-405e-4acc-8fe4-dadf006c9961
+
+https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/4b405bb3-9b30-4646-a2db-f1ee870b35a8
 
 
-https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/f9007cd2-94c9-444e-a737-4586e2fbef74
-
-
-
-
-![IMG_3943](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/4bb40ecc-bddd-4162-85d8-aa9c357c2cc0)
-![IMG_3967](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/a94b1ef2-6fe1-4d4b-b0e7-1062c13fda35)
-![IMG_3966](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/fdf7836a-3201-4026-86aa-58aa66711463)
-![IMG_3934](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/54cb7e86-337c-464c-8b67-39fff949aa32)
-![IMG_3935](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/5c358f75-2281-4b6e-bf50-e1683b1b8d12)
-![IMG_3968](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/ebc6b44f-d4dd-423a-a30d-b14be451522f)
-![IMG_3942](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/9d718d83-160a-46a9-937c-891f6c2ef3b4)
-![IMG_3924](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/71a12c79-befc-4bad-bccc-51676bb44ec6)
-![IMG_3944](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/8fc68709-9a70-4c9f-8a74-6e2d0ee2bee9)
+https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/e7725b99-2784-45e3-88aa-dac06059f1b8
 
 
 
 
+
+![IMG_3943](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/7d03c770-ba6e-4f89-aa14-0c47485fd2d1)
+![IMG_3967](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/61d61924-c480-4247-a912-a9855b0edd53)
+![IMG_3966](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/746b946c-1e0f-4e6b-b072-d1742d599c4a)
+![IMG_3934](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/65288567-c311-474b-ab5a-0ab58f6bc27c)
+![IMG_3935](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/5ba9b5fb-31dd-47b4-9241-6cf977a5087d)
+![IMG_3968](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/381f1cbe-78b7-4981-900f-0b4aa0e43bf2)
+![IMG_3942](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/80116ca5-85d4-4510-85ee-19ebcae6e588)
+![IMG_3924](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/3306121f-d63f-4e60-b492-f6e1f7ce4497)
+![IMG_3944](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/c34b4d8d-a229-4ee5-b386-dd2c21a2ec7d)
 
 
 ### Cel?
@@ -38,7 +36,8 @@ Celem tego projektu było stworzenie **przenośnego urządzenia do wizualizacji 
 ### Po co to wszystko?
 Istnieją grupy chorych, dla których regularne przyjmowanie leków dożylnie (co 2/3 dni) stanowi konieczność, np. w przypadku chorób układu krzepnięcia. **Skaner żył jest narzędziem, które pomaga zminimalizować liczbę koniecznych wkłuć**, dzięki czemu można zmniejszyć niepotrzebny stres i ból dla pacjenta oraz zminimalizować liczbę prób, co jest szczególnie ważne w przypadku niemowląt i dzieci.
 ### Jak to działa?
-![scheme](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/67e30692-eaae-4d8a-b628-c2d68beab24c)
+![scheme](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/3a833f4b-79ed-4748-8e1b-0b6400b377ec)
+
 
 
 **Skaner żył** to urządzenie, które wykorzystuje technologię **bliskiej podczerwieni _(NIR, ang. Near-InfraRed)_**, aby zobrazować żyły ukryte pod skórą pacjenta. 
@@ -59,12 +58,13 @@ Urządzenie zostało wyposażone w baterię o pojemności **3000mah**, która po
 **-Kamera OdSeven Camera HD IR-CUT OV5647 5Mpx + moduły IR (850nm)** <br>
 ![kamera](https://user-images.githubusercontent.com/120425774/219519215-5b22be91-8f97-4141-aab5-ef4c1bae8114.jpg)<br>
 **-WaveShare Li-polymer Battery HAT** <br>
-![bateria](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/7badb618-1665-44c1-9f1f-cbea8764bc78)<br>
+![bateria](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/1bdd070a-82a8-4d7a-826d-7218819fd7f9)<br>
 **-Karta microSD** <br>
-![karta](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/8f0bd16a-ce50-422c-904e-543d0d7a3185)<br>
+![karta](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/bd93f27c-4dbc-4471-b82e-a97724ddabe4)<br>
 **-Obudowa** _(zaprojektowana w Autocad 2024, należy wysłać plik **Case_stl.stl** do wydruku 3d)_ <br>
-![caser](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/b5f1bbe0-2185-49ea-93d2-5db69a813369)
-![case_autocad](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/61d7e37c-27e4-435d-b0ac-f01d436fdc7f)
+![caser](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/9fa05028-ec35-4752-8d26-f76c5514013e)
+![case_autocad](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/49e93d57-98ef-4099-8568-ae3cbde92cd3)
+
 
 <br>
 
@@ -91,15 +91,20 @@ vf@raspberrypi:~$ pip install -r requirements.txt
 ```console
 vf@raspberrypi:~$ sudo raspi-config
 ```
-![raspi1](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/5e73c265-1815-4603-b06f-4b85b63463dd)
-![raspi2](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/3534fcf2-035f-4327-8576-b97477de719e)
+![raspi1](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/2ea18f97-ac64-434e-91b0-626bd50a3867)
+![raspi2](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/cf868ad1-3711-495d-bfe6-ff1f93ec7afa)
+
 **4)** Utworzenie hotspotu **Wifi**
-![wifi2](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/7b26dd16-d31b-4e4e-ac30-df37cba40614)
+![wifi2](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/669a9375-56b7-4947-86f7-9379b6011920)
+
 **5)** **Ustawienie priorytetu wybierania sieci przy starcie urządzenie** (urządzenie będzie łączyć się automatycznie z naszą siecią jako pierwszy wybór przy starcie urządzenia)
-![356582114_658103286376636_258303166703897224_n](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/eea4dcd2-d3bb-428d-b232-ea2b2d729b20)
-![357157389_660844529267880_1522471513100033015_n](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/09969ced-c56b-499a-8d47-dad4aed6b909)
+![356582114_658103286376636_258303166703897224_n](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/0d19eaef-fde0-41f9-8581-51b9a6079909)
+![357157389_660844529267880_1522471513100033015_n](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/0c6d41be-3937-4359-b9f1-e43207fe2af2)
+
+
 **6)** Ustawienie **statycznego adresu IP**
-![358653618_933626021062454_8678450154277752298_n](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/131d3b6f-fb84-4fbf-8084-a24947c43ad7)
+![358653618_933626021062454_8678450154277752298_n](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/2a0c1fe0-8598-4401-8e87-6a3020ba3c45)
+
 **7)** Ustawienie automatycznego włączania przy starcie urządzenia programu _**veinfinder.py**_
 ```console
 vf@raspberrypi:~$ sudo nano /etc/rc.local
@@ -108,7 +113,8 @@ Dopisujemy:
 ```console
 sudo python3 SCIEŻKA_PLIKU/veinfinder.py &
 ```
-![rtc2](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/ebbde9b5-2d02-49a1-b965-127ef5896980)
+![rtc2](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/844d69f1-f019-4288-a544-d5b8fa10b0a9)
+
 **GOTOWE!**
 
 ### Użytkowanie
@@ -128,23 +134,25 @@ Urządzenie można ładować za pomocą **USB TYP C (Quick charge)** lub **Micro
 
 
 
-https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/e6118d30-405e-4acc-8fe4-dadf006c9961
+
+https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/4b405bb3-9b30-4646-a2db-f1ee870b35a8
 
 
-https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/f9007cd2-94c9-444e-a737-4586e2fbef74
+https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/e7725b99-2784-45e3-88aa-dac06059f1b8
 
 
 
 
-![IMG_3943](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/4bb40ecc-bddd-4162-85d8-aa9c357c2cc0)
-![IMG_3967](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/a94b1ef2-6fe1-4d4b-b0e7-1062c13fda35)
-![IMG_3966](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/fdf7836a-3201-4026-86aa-58aa66711463)
-![IMG_3934](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/54cb7e86-337c-464c-8b67-39fff949aa32)
-![IMG_3935](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/5c358f75-2281-4b6e-bf50-e1683b1b8d12)
-![IMG_3968](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/ebc6b44f-d4dd-423a-a30d-b14be451522f)
-![IMG_3942](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/9d718d83-160a-46a9-937c-891f6c2ef3b4)
-![IMG_3924](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/71a12c79-befc-4bad-bccc-51676bb44ec6)
-![IMG_3944](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/8fc68709-9a70-4c9f-8a74-6e2d0ee2bee9)
+
+![IMG_3943](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/7d03c770-ba6e-4f89-aa14-0c47485fd2d1)
+![IMG_3967](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/61d61924-c480-4247-a912-a9855b0edd53)
+![IMG_3966](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/746b946c-1e0f-4e6b-b072-d1742d599c4a)
+![IMG_3934](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/65288567-c311-474b-ab5a-0ab58f6bc27c)
+![IMG_3935](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/5ba9b5fb-31dd-47b4-9241-6cf977a5087d)
+![IMG_3968](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/381f1cbe-78b7-4981-900f-0b4aa0e43bf2)
+![IMG_3942](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/80116ca5-85d4-4510-85ee-19ebcae6e588)
+![IMG_3924](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/3306121f-d63f-4e60-b492-f6e1f7ce4497)
+![IMG_3944](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/c34b4d8d-a229-4ee5-b386-dd2c21a2ec7d)
 
 
 
@@ -175,12 +183,12 @@ The device is equipped with a **3000mAh battery**, which allows for several minu
 **-Camera OdSeven Camera HD IR-CUT OV5647 5Mpx + moduły IR (850nm)** <br>
 ![kamera](https://user-images.githubusercontent.com/120425774/219519215-5b22be91-8f97-4141-aab5-ef4c1bae8114.jpg)<br>
 **-WaveShare Li-polymer Battery HAT** <br>
-![bateria](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/7badb618-1665-44c1-9f1f-cbea8764bc78)<br>
+![bateria](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/1bdd070a-82a8-4d7a-826d-7218819fd7f9)<br>
 **-MicroSD Card** <br>
-![karta](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/8f0bd16a-ce50-422c-904e-543d0d7a3185)<br>
+![karta](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/bd93f27c-4dbc-4471-b82e-a97724ddabe4)<br>
 **-Case** _(zaprojektowana w Autocad 2024, należy wysłać plik **Case_stl.stl** do wydruku 3d)_ <br>
-![caser](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/b5f1bbe0-2185-49ea-93d2-5db69a813369)
-![case_autocad](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/61d7e37c-27e4-435d-b0ac-f01d436fdc7f)
+![caser](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/9fa05028-ec35-4752-8d26-f76c5514013e)
+![case_autocad](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/49e93d57-98ef-4099-8568-ae3cbde92cd3)
 
 <br>
 
@@ -207,15 +215,15 @@ vf@raspberrypi:~$ pip install -r requirements.txt
 ```console
 vf@raspberrypi:~$ sudo raspi-config
 ```
-![raspi1](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/5e73c265-1815-4603-b06f-4b85b63463dd)
-![raspi2](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/3534fcf2-035f-4327-8576-b97477de719e)
+![raspi1](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/2ea18f97-ac64-434e-91b0-626bd50a3867)
+![raspi2](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/cf868ad1-3711-495d-bfe6-ff1f93ec7afa)
 **4)** Create a **Wi-Fi** hotspot.
-![wifi2](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/7b26dd16-d31b-4e4e-ac30-df37cba40614)
+![wifi2](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/669a9375-56b7-4947-86f7-9379b6011920)
 **5)** **Set priority for network selection at startup** (the device will automatically connect to our network as the first choice at startup).
-![356582114_658103286376636_258303166703897224_n](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/eea4dcd2-d3bb-428d-b232-ea2b2d729b20)
-![357157389_660844529267880_1522471513100033015_n](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/09969ced-c56b-499a-8d47-dad4aed6b909)
+![356582114_658103286376636_258303166703897224_n](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/0d19eaef-fde0-41f9-8581-51b9a6079909)
+![357157389_660844529267880_1522471513100033015_n](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/0c6d41be-3937-4359-b9f1-e43207fe2af2)
 **6)** Set **static IP** address
-![358653618_933626021062454_8678450154277752298_n](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/131d3b6f-fb84-4fbf-8084-a24947c43ad7)
+![358653618_933626021062454_8678450154277752298_n](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/2a0c1fe0-8598-4401-8e87-6a3020ba3c45)
 **7)** Set up automatic startup of the **_veinfinder.py_** program when the device boots:
 ```console
 vf@raspberrypi:~$ sudo nano /etc/rc.local
