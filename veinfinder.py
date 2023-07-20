@@ -8,28 +8,28 @@ app = Flask('_name_')
 camera = PiCamera()
 lock = Lock()
 
-# Inicjalizacja kamery przy starcie serwera
+# Initalizing the camera on server startup
 def initialize_camera():
     camera.resolution = (640, 480)
     camera.framerate = 30
     # camera.start_preview() # Podglad kamery na urzadzeniu
 
 def apply_clahe(frame_img):
-    # Przetwarzanie obrazu - CLAHE
+    # Image processing - CLAHE
         lab_img = cv2.cvtColor(frame_img, cv2.COLOR_BGR2LAB)
-        l, a, b = cv2.split(lab_img)
+        l_channel, a_channel, b_channel = cv2.split(lab_img)
 
         for i in range(3):
             clahe = cv2.createCLAHE(clipLimit=2.5, tileGridSize=(8+i*4,8+i*4))
-            l = clahe.apply(l)
+            l_channel = clahe.apply(l_channel)
 
-        lab_img = cv2.merge((l,a,b))
+        lab_img = cv2.merge((l_channel,a_channel,b_channel))
         median_lab_img = cv2.medianBlur(lab_img, 3)
         median_bgr_img = cv2.cvtColor(median_lab_img, cv2.COLOR_LAB2BGR)
 
         return median_bgr_img
 
-# Funkcja generująca strumień wideo
+# Video stream generating function
 def generate_video_stream():
     global camera
     global lock
@@ -37,30 +37,30 @@ def generate_video_stream():
     with lock:
         raw_capture = PiRGBArray(camera, size=(640, 480))
         for frame in camera.capture_continuous(raw_capture, format="bgr", use_video_port=True):
-            # Przechwytywanie obecnej klatki
+            # Capturing the current frame
             frame_img = frame.array
             
-            # Przetwarzanie obrazu - CLAHE
+            # Image processing - CLAHE
             processed_frame = apply_clahe(frame_img)
 
-            # Zapisanie strumienia wideo
+            # Saving the video stream
             ret, jpeg = cv2.imencode('.jpg', processed_frame)
 
-            # Wyślij klatkę jako odpowiedź na żądanie klienta
+            # Sending the frame as a response to the client's request
             yield (b'--frame\r\n'
                    b'Content-Type: image/jpeg\r\n\r\n' + jpeg.tobytes() + b'\r\n')
 
-            # Wyczyść bufor
+            # Clearing the buffe
             raw_capture.truncate(0)
 
 
-# Endpoint do strumienia wideo
+# Endpoint for the video stream
 @app.route('/')
 def video_feed():
     return Response(generate_video_stream(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
 if __name__ == '__main__':
-    # Inicjalizuj kamerę przy starcie serwera
+    # Initialize the camera on server startup
     initialize_camera()
 
     # Uruchom serwer Flask
