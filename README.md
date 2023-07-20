@@ -232,7 +232,7 @@ Add the following line:
 ```console
 sudo python3 PATH_TO_FILE/veinfinder.py &
 ```
-![rtc2](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/ebbde9b5-2d02-49a1-b965-127ef5896980)
+![rtc2](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/844d69f1-f019-4288-a544-d5b8fa10b0a9)
 **READY!**
 
 ### Usage
