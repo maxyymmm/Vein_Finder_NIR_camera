@@ -69,7 +69,7 @@ Urządzenie zostało wyposażone w baterię o pojemności **3000mah**, która po
 <br>
 
 ### Koszty:
--Raspberry pi 4B 4GB - **599 PLN** <br>
+-Raspberry Pi 4B 4GB - **599 PLN** <br>
 -Kamera OdSeven Camera HD IR-CUT OV5647 5Mpx + moduły IR (850nm) - **100 PLN** <br>
 -WaveShare Li-polymer Battery HAT - **90 PLN** <br>
 -Karta microSD - **20 PLN** <br>
@@ -81,7 +81,7 @@ Raspberry Pi z zainstalowanym **Raspberry Pi OS w wersji 4.3 (September 2022)** 
 **Python** w wersji **3.9.2** lub nowszej.
 
 ### Konfiguracja Raspberry Pi
-**1)** Pobranie pliu _**veinfinder.py**_ oraz _**requirements.txt**_ na raspberry pi <br>
+**1)** Pobranie pliku _**veinfinder.py**_ oraz _**requirements.txt**_ na raspberry pi <br>
 **2)** Instalacja potrzebnych bibliotek z pliku _**requirements.txt**_
 
 ```console
@@ -164,7 +164,7 @@ The aim of this project was to create a **portable device for visualizing subcut
 ### Why all this?
 There are groups of patients for whom regular intravenous drug administration (every 2/3 days) is necessary, e.g., in the case of coagulation system disorders. **Vein finder is a tool that helps minimize the number of necessary punctures**, thus reducing unnecessary stress and pain for the patient and minimizing the number of attempts, which is particularly important for infants and children.
 ### How does it work?
-![scheme](https://github.com/maxyymmm/Vein_Finder_NIR_camera/assets/120425774/67e30692-eaae-4d8a-b628-c2d68beab24c)
+![scheme](https://github.com/maxyymmm/Vein-Finder-NIR-Near-Infrared-VF-PL-ENG-/assets/120425774/3a833f4b-79ed-4748-8e1b-0b6400b377ec)
 
 
 **Vein scanner** is a device that uses **near-infrared technology (NIR)** to visualize veins hidden under the patient's skin. The vein scanner works as follows: the device emits safe infrared waves with wavelengths in the range of **700nm-1000nm _(in this case 850nm)_**, which penetrate the patient's skin. When the infrared waves hit the vein, they are partially absorbed by the blood, and the surrounding tissues reflect the light back. **_The use of several diodes with different wavelengths may give slightly better results, but there are no ready-made circuits that allow for such functionality. Building such a scanner would require soldering, separate voltage sources, and would be more complicated than what has been achieved in this project. The goal of this project was to create a relatively simple device that fulfills its basic functions in a safe and effective way._** <br>
@@ -174,11 +174,11 @@ The processing process involves the following steps: <br>
 **2)** Applying **CLAHE** to the **L channel _(Lightness)_**.<br>
 **3)** Merging the **LAB channels** back to the **BGR** image.<br>
 **4)** A **filter (Median Filter)** is applied to the image.<br>
-After processing the image, it is sent to a local **Flask** server running on the device. To view the video stream from the vein scanner on another device, connect to the Raspberry Pi's local hotspot.Then, scan the QR code attached to the device's casing. <br>
+After processing the image, it is sent to a local **Flask** server running on the device. To view the video stream from the vein scanner on another device, connect to the Raspberry Pi's local hotspot. Then, scan the QR code attached to the device's casing. <br>
 **Alternatively**, you can open a web browser on your device and manually enter the Raspberry Pi's statically assigned IP address and port **5000** (e.g., http://192.168.1.254:5000/). This will display the real-time video stream from the vein scanner. <br>
 The device is equipped with a **3000mAh battery**, which allows for several minutes of operation.
 ### Hardware
-**-Raspberry pi 4B 4GB**<br>
+**-Raspberry Pi 4B 4GB**<br>
 ![raspberry](https://user-images.githubusercontent.com/120425774/219519043-36ef3765-eb90-4844-9529-c078ed58def6.jpg)<br>
 **-Camera OdSeven Camera HD IR-CUT OV5647 5Mpx + moduły IR (850nm)** <br>
 ![kamera](https://user-images.githubusercontent.com/120425774/219519215-5b22be91-8f97-4141-aab5-ef4c1bae8114.jpg)<br>
@@ -238,7 +238,7 @@ sudo python3 PATH_TO_FILE/veinfinder.py &
 ### Usage
 To turn on the device, press the **ON/OFF** button. <br>
 To turn off the device, press the **ON/OFF** button twice. <br>
-The device can be charged using **USB TYPE C (Quick charge)** or** Micro USB (Charge)**. _(The five LED indicators will display the battery capacity and charging status)_
+The device can be charged using **USB TYPE C (Quick charge)** or **Micro USB (Charge)**. _(The five LED indicators will display the battery capacity and charging status)_
 
    
    
