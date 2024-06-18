@@ -12,7 +12,7 @@ lock = Lock()
 def initialize_camera():
     camera.resolution = (640, 480)
     camera.framerate = 30
-    # camera.start_preview() # Podglad kamery na urzadzeniu
+    # camera.start_preview() # Camera preview
 
 def apply_clahe(frame_img):
     # Image processing - CLAHE
@@ -50,7 +50,7 @@ def generate_video_stream():
             yield (b'--frame\r\n'
                    b'Content-Type: image/jpeg\r\n\r\n' + jpeg.tobytes() + b'\r\n')
 
-            # Clearing the buffe
+            # Clearing the buffer
             raw_capture.truncate(0)
 
 
@@ -63,5 +63,5 @@ if __name__ == '__main__':
     # Initialize the camera on server startup
     initialize_camera()
 
-    # Uruchom serwer Flask
+    # Run Flask server
     app.run(host='0.0.0.0', port=5000)
